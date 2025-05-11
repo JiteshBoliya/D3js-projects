@@ -16,7 +16,7 @@ All chart preview images are stored centrally in the `assets/` folder.
 
 | Chart            | Preview                                    | Link                            |
 | :--------------- | :----------------------------------------- | :------------------------------ |
-| **PackLayout Chart**    | <br><img src="./assets/pack_layout_001_1.png" alt="Line Chart" style="width:80%;"><br><div style="display:flex;gap:10px;justify-content:center;><img src="./assets/pack_layout_001_2.png" alt="Line Chart Small 1" style="width:auto;height:auto"><img src="./assets/pack_layout_001_3.png" alt="Line Chart Small 2" style="width:auto;height:auto"><img src="./assets/pack_layout_001_4.png" alt="Line Chart Small 3" style="width:auto;height:auto"></div>         | [Go to Folder](./charts/pack_layout_001/)    |
+| **PackLayout Chart**    | <br><img src="./assets/pack_layout_001_1.png" alt="Line Chart" style="width:80%;"><br><div style="display:flex;gap:10px; justify-content:center;><img src="./assets/pack_layout_001_2.png" alt="Line Chart Small 1" style="width:auto;height:auto"><img src="./assets/pack_layout_001_3.png" alt="Line Chart Small 2" style="width:auto;height:auto"><img src="./assets/pack_layout_001_4.png" alt="Line Chart Small 3" style="width:auto;height:auto"></div>         | [Go to Folder](./charts/pack_layout_001/)    |
 | **Pie Chart**    | ![Pie Chart](./assets/pie_chart_002.png)       | [Go to Folder](./charts/pie_chart_002/)    |
 
 
