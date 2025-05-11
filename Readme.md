@@ -58,16 +58,26 @@ All chart preview images are stored centrally in the `assets/` folder.
         <img src="./assets/network_graph_004_1.png" alt="Network graph" style="width:80%; margin-bottom:10px;"><br>
         <div style="display: flex; justify-content: center; gap: 10px;">
           <img src="./assets/network_graph_004_2.png" alt="Network graph" style="width:10%;">
-        <img src="./assets/network_graph_004_3.png" alt="Network graph" style="width:10%;">
+          <img src="./assets/network_graph_004_3.png" alt="Network graph" style="width:10%;">
         </div>
       </td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/network_graph_004/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
     </tr>
-
+    <tr>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">Chess game</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">
+        <img src="./assets/chess_game_1.png" alt="Chess game" style="width:80%; margin-bottom:10px;"><br>
+        <div style="display: flex; justify-content: center; gap: 10px;">
+          <img  src="./assets/chess_game_2.png" alt="Chess game" style="width:10%;">
+          <img  src="./assets/chess_game_3.png" alt="Chess game" style="width:10%;">
+          <img  src="./assets/chess_game_4.png" alt="Chess game" style="width:10%;">
+          <img  src="./assets/chess_game_5.png" alt="Chess game" style="width:10%;">
+        </div>
+      </td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/chess_game/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
+    </tr>
   </tbody>
 </table>
-> **Note:** Place all your chart preview images in the `assets/` directory and name them properly (e.g., `bar-chart.png`, `line-chart.png`).
-
 ---
 
 ## Used Technologies

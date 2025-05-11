@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="./chess.css">
+</head>
+
+<body>
+    <div class="footer">
+        <div class="footerContainer">
+            <div class="turnContainer"><span id="turn"></span></div>
+            <div class="messageContainer"><span id="message"></span></div>
+            <div id="buttonContainer"></div>
+        </div>
+    </div>
+    <div class="mainContainer">
+        <div class="chessPiecesContainer">
+            <div class="chessCaptureDiv">
+                <div class="captureTitle">
+                    <h3>Capture</h3>
+                </div>
+                <div class="captureBody">
+                    <div class="capturePartition captureWhite">
+                        <div id="captureWhite"></div>
+                    </div>
+                    <div class="capturePartition">
+                        <div id="captureBlack"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg id="chessboard"></svg>
+        <div class="chessNotationContainer">
+            <div class="chessNotationDiv">
+                <div class="notationTitle">
+                    <h3>Notation</h3>
+                </div>
+                <div class="notationBody">
+                    <div class="notationPartition notationWhite">
+                        <div class="notationTitleBox notationWhiteTitle">
+                            <b>White</b>
+                        </div>
+                        <div id="notationWhite" class="notationPartitionScroll"></div>
+                    </div>
+                    <div class="notationPartition notationBlack">
+                        <div class="notationTitleBox notationBlackTitle">
+                            <b>Black</b>
+                        </div>
+                        <div id="notationBlack" class="notationPartitionScroll"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h1 id="modelTitle"></h1>
+            <div id="modelButtonContainer"></div>
+        </div>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="./chess.js"></script>
+
+</html>

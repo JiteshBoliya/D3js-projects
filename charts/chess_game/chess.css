@@ -1,0 +1,328 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    width: calc(100%-10px);
+    height: 90vh;
+    padding: 10px;
+}
+
+.chessPiecesContainer {
+    width: 20%;
+    max-width: 300px;
+    height: 100%;
+    border: 1px solid gray;
+}
+
+.chessNotationContainer {
+    width: 20%;
+    max-width: 300px;
+    height: 100%;
+    border: 1px solid gray;
+}
+
+#chessboard {
+    width: 80%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #464646;
+    padding: 10px;
+}
+
+.turnContainer {
+    width: 25%;
+}
+
+#buttonContainer {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+}
+
+.messageContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.selectColorScheme {
+    padding: 10px;
+    /* border-radius: 10px; */
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.chessRects {
+    stroke-width: 1px;
+    stroke: black;
+}
+
+.chessPieces {
+    cursor: pointer;
+}
+
+.ticks line {
+    stroke: none;
+}
+
+.ticks text {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.WHITE {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    /* border-radius: 10px; */
+}
+
+.BLACK {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    /* border-radius: 10px; */
+}
+
+.chessPiecesDiv {
+    height: 100%;
+    width: 100%;
+}
+
+.chessNotationDiv {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 10px; */
+    background-color: rgb(44, 46, 45);
+    font-family: sans-serif;
+}
+
+.notationTitle {
+    width: 100%;
+    height: 50px;
+    /* border-radius: 10px 10px 0px 0px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.notationTitle h3 {
+    margin: 10px;
+}
+
+.notationBody {
+    width: 100%;
+    height: calc(100% - 53px);
+    display: flex;
+    color: white;
+
+}
+
+.notationPartition {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    /* border-radius: 10px */
+}
+
+.notationTitleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #464646;
+}
+
+.notaionRow {
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ================== */
+.chessCaptureDiv {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 10px; */
+    background-color: rgb(44, 46, 45);
+    font-family: sans-serif;
+}
+
+.captureTitle {
+    width: 100%;
+    height: 50px;
+    /* border-radius: 10px 10px 0px 0px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.captureTitle h3 {
+    margin: 10px;
+}
+
+.captureBody {
+    width: 100%;
+    height: calc(100% - 53px);
+    display: flex;
+    color: white;
+
+}
+
+.capturePartition {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    overflow-y: auto;
+}
+
+.captureRow {
+    display: flex;
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.capturePieces {
+    height: 100px;
+    width: 100px;
+    display: block !important;
+}
+
+.captureTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notationPartitionScroll {
+    overflow-y: auto;
+    height: calc(100% - 30px);
+    width: calc(100% - 2px);
+}
+
+.warningMessage {
+    color: #fead00;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Styles for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    color: #aaa;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.promotionImageButton {
+    width: 100px;
+    height: 100px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.checkMateModelContainer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 200px;
+        height: 100%;
+    }
+}
+
+.checkMateFooterContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+    button {
+        width: 200px;
+        font-size: 15px;
+    }
+}
