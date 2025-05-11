@@ -35,6 +35,16 @@ All chart preview images are stored centrally in the `assets/` folder.
       </td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/pack_layout_001/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
     </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">Pie Chart</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">
+        <img src="./assets/pie_chart_002_1.png" alt="Pie Chart" style="width:80%; margin-bottom:10px;"><br>
+        <div style="display: flex; justify-content: center; gap: 10px;">
+          <img src="./assets/pie_chart_002_2.png" alt="Pie Chart" style="width:10%;">
+        </div>
+      </td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/pie_chart_002/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
+    </tr>
 
   </tbody>
 </table>
