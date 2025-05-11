@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./packLayout.css">
+    <title>Pack Layout</title>
+</head>
+
+<body>
+    <div class="chart">
+        <div class="titlebar">
+            <span class="title">Indian national level election</span>
+            <div>
+                <select id="yearDropdown" class="dropdown">
+                </select>
+                <select id="graphDropdown" class="dropdown">
+                    <option value="treeMapDiv">Treemap</option>
+                    <option value="packCircleDiv">Circle pack</option>
+                    <option value="sunburstDiv">Sunburst</option>
+                </select>
+            </div>
+        </div>
+        <div id="svgContainer">
+            <div id="svgDiv"></div>
+            <div id="loadingScreen">
+                <span class="loader"></span>
+            </div>
+        </div>
+    </div>
+    <div id="tooltip">
+    </div>
+
+</body>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="./packLayout.min.js"></script>
+
+</html>
