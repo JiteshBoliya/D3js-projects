@@ -14,12 +14,30 @@ All chart preview images are stored centrally in the `assets/` folder.
 
 ## Project Structure
 
-| Chart            | Preview                                    | Link                            |
-| :--------------- | :----------------------------------------- | :------------------------------ |
-| **PackLayout Chart**    | <br><img src="./assets/pack_layout_001_1.png" alt="Line Chart" style="width:80%;"><br><div style="display:flex;gap:10px;justify-content:center;"><img src="./assets/pack_layout_001_2.png" alt="Line Chart Small 1" style="width:auto;height:auto"><img src="./assets/pack_layout_001_3.png" alt="Line Chart Small 2" style="width:auto;height:auto"><img src="./assets/pack_layout_001_4.png" alt="Line Chart Small 3" style="width:auto;height:auto"></div>         | [Go to Folder](./charts/pack_layout_001/)    |
-| **Pie Chart**    | ![Pie Chart](./assets/pie_chart_002.png)       | [Go to Folder](./charts/pie_chart_002/)    |
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd; background-color: #f4f4f4;">Chart</th>
+      <th style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd; background-color: #f4f4f4;">Preview</th>
+      <th style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd; background-color: #f4f4f4;">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">Pack Layout Chart</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">
+        <img src="./assets/pack_layout_001_1.png" alt="Pack Layout Chart" style="width:80%; margin-bottom:10px;"><br>
+        <div style="display: flex; justify-content: center; gap: 10px;">
+          <img src="./assets/pack_layout_001_2.png" alt="Pack Layout Chart" style="width:10%;">
+          <img src="./assets/pack_layout_001_3.png" alt="Pack Layout Chart" style="width:10%;">
+          <img src="./assets/pack_layout_001_4.png" alt="Pack Layout Chart" style="width:10%;">
+        </div>
+      </td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/pack_layout_001/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
+    </tr>
 
-
+  </tbody>
+</table>
 > **Note:** Place all your chart preview images in the `assets/` directory and name them properly (e.g., `bar-chart.png`, `line-chart.png`).
 
 ---
