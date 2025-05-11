@@ -45,12 +45,23 @@ All chart preview images are stored centrally in the `assets/` folder.
       </td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/pie_chart_002/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
     </tr>
-        <tr>
+    <tr>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">Wind Chart</td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">
         <img src="./assets/wind_chart_003.png" alt="Wind Chart" style="width:80%; margin-bottom:10px;"><br>
       </td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/wind_chart_003/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">Network Graph</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">
+        <img src="./assets/network_graph_004_1.png" alt="Network graph" style="width:80%; margin-bottom:10px;"><br>
+        <div style="display: flex; justify-content: center; gap: 10px;">
+          <img src="./assets/network_graph_004_2.png" alt="Network graph" style="width:10%;">
+        <img src="./assets/network_graph_004_3.png" alt="Network graph" style="width:10%;">
+        </div>
+      </td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;"><a href="./charts/network_graph_004/" style="text-decoration: none; color: #007bff;">Go to Folder</a></td>
     </tr>
 
   </tbody>

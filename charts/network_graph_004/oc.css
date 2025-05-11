@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    cursor: pointer;
+}
+
+/* .oscarSvg {
+    border: 1px solid black;
+} */
+
+.personName {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+
+.movieLable {
+    font-family: sans-serif;
+    font-size: 10px;
+    fill: gray;
+}
+
+.round-image {
+    clip-path: circle(50%);
+    -webkit-clip-path: circle(50%);
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.tooltip-light {
+    background: black;
+    color: white;
+}
+
+.tooltip-dark {
+    background: white;
+    color: black;
+}
+
+.tooltipTitle {
+    margin: 0px;
+}
+
+.tooltipList {
+    display: flex;
+}
+
+.tooltipList p {
+    margin: 0px 5px;
+}
+
+.legendFont {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+/* Navbar */
+.container-fluid {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.bg-light {
+    background-color: #ededed;
+    color: black;
+}
+
+.bg-dark {
+    background-color: #212529;
+    color: white;
+}
+
+/* Dark mode switch */
+.mode {
+    display: flex;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    width: 2.5em;
+    height: 1.2em;
+    margin-right: 0.5em;
+}
+
+.switch input {
+    opacity: 0;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 1em;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1em;
+    width: 1em;
+    left: 0.1em;
+    bottom: 0.11em;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #3d3d3d;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(21px);
+}
+
+.darkTheme {
+    background-color: black;
+    color: white;
+}
