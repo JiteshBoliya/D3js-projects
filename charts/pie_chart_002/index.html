@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pieChart.css">
+    <title>Swappable Pie chart</title>
+</head>
+
+<body>
+    <div class="titlebar">
+        <span>Pie chart</span>
+        <div class="button-container">
+            <button id="addSegement"> + Add Segement</button>
+            <button id="downloadImage">Export SVG</button>
+        </div>
+    </div>
+    <div class="pie-chart-container" id="pieChartContainer">
+        <div id="svgContainer"></div>
+    </div>
+    <div class="tooltip"></div>
+</body>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="./pieChart.min.js"></script>
+
+</html>
